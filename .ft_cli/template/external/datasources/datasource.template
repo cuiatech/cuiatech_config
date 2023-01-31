@@ -1,0 +1,16 @@
+import 'package:flutter_modular/flutter_modular.dart';
+import '../../{{datasourcePathInterface}}/{{datasourceNameFileInterface.snakeCase}}.dart';
+
+final ${{datasourceNameClass.pascalCase}} = Bind.lazySingleton(
+  (i) => {{datasourceNameClass.pascalCase}}(),
+);
+
+class {{datasourceNameClass.pascalCase}} implements {{datasourceNameClassInterface.pascalCase}} {
+  @override
+  Future<void> call() {
+    // TODO: implement call
+    throw UnimplementedError();
+  }
+}
+  
+  

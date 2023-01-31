@@ -1,0 +1,33 @@
+------------------------------------------------------------
+'Cmd/Ctrl+Enter' // Triggers `Todo: Toggle Box`
+'Alt+Enter' // Triggers `Todo: Toggle Box`
+'Alt+S' // Triggers `Todo: Toggle Start`
+'Alt+D' // Triggers `Todo: Toggle Done`
+'Alt+C' // Triggers `Todo: Toggle Cancelled`
+'Cmd/Ctrl+Shift+A' // Triggers  `Todo: Archive`
+------------------------------------------------------------
+
+Build / Run
+$ flutter build web --release --dart-define=ENV=prod --web-renderer canvaskit
+$ flutter run --release --dart-define=ENV=prod
+
+------------------------------------------------------------
+# Next steps
+------------------------------------------------------------
+✔ Forgot password @started(23-01-29 23:07) @done(23-01-30 01:06) @lasted(1h59m3s)
+✔ Update password @started(23-01-30 01:06) @done(23-01-30 14:28) @lasted(13h22m29s)
+✔ Responsive pages layout (lib responsive in DS) @done(23-01-30 14:28)
+✔ App bar no DS @started(23-01-30 15:01 @done(23-01-30 20:47) @lasted()
+✔ htaccess config @started(23-01-30 20:46) @done(23-01-30 20:46) @lasted(18s)
+✔ UI dashboard @started(23-01-30 15:01) @done(23-01-30 21:22) @lasted(6h21m16s)
+✔ Remover acoplamento com o shared preferences @started(23-01-30 21:51) @done(23-01-30 22:02) @lasted(11m3s)
+✔ Remover acoplamento do Responsive grid @started(23-01-30 22:02) @done(23-01-30 22:31) @lasted(29m51s)
+✔ Adicionar i18n @started(23-01-30 22:32) @done(23-01-31 00:23) @lasted(1h51m25s)
+✔ Trocar icone do build @started(23-01-31 01:31) @done(23-01-31 01:31) @lasted(39s)
+☐ Incluir loading nos botões
+☐ Sentry integration
+☐ Profile (Dropdown button)
+☐ Suporte (drawer direito)
+☐ 
+☐ 
+------------------------------------------------------------
