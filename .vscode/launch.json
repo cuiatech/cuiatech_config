@@ -6,7 +6,7 @@
     "configurations": [
         {
             "name": "Web dev",
-            "cwd": "flut_base_web_workspace",
+            "cwd": "ct_base_web_workspace",
             "program": "lib/main.dart",
             "request": "launch",
             "type": "dart",
@@ -19,7 +19,7 @@
         },
         {
             "name": "Web prod",
-            "cwd": "flut_base_web_workspace",
+            "cwd": "ct_base_web_workspace",
             "program": "lib/main.dart",
             "request": "launch",
             "type": "dart",
